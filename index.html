@@ -1,12 +1,12 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<html lang="es" style="">
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicon icon -->
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 
     <!-- All CSS -->
     <!-- fontAwesome -->
@@ -16,537 +16,789 @@
     <!-- Roysha icon -->
     <link rel="stylesheet" href="css/roysha-icons.css">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/nice-select.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>RemittVen</title>
-    <style>
-      .features {
-        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-        overflow: hidden;
-      }
-      .features .sec-heading {
-        margin: 60px auto 60px;
-      }
-      .single-demo {
-        position: relative;
-        display: block;        
-        margin-bottom: 50px;
-        padding-bottom: 30px;
-        box-shadow: 0 0 5px #ddd;
-      }
-      .single-demo:hover {
-        box-shadow: 0 0 40px #ddd;
-      }
-      .single-demo--img {
-        max-height: 560px;
-        overflow: hidden;
-      }
-      .single-demo span {
-        padding: 5px;
-        display: block;
-        text-align: center;
-        border: 1px solid #ddd;
-        max-width: 230px;
-        border-radius: 5px;
-        font-weight: 300;
-        text-transform: uppercase;
-        font-size: 14px;
-        letter-spacing: 0.6px;
-        margin: 35px auto 0;
-      }
-      .icon-list-block {
-        padding: 15px 12px;
-      }
-      .iconBox {
-        margin-bottom: 30px;
-      }
-      .footer h2 {
-        color: #fff;
-        margin-bottom: 40px;
-      }
-      .footer .copyright {
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body class="demo-page">
+    <!-- custom css if you need -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Color Palette. simple uncommned if you need any color palette -->
+    <!-- <link rel="stylesheet" href="css/switcher/css/red.css"> -->
+
+    <title>Remittven transferencia de dinero a Venezuela</title>
+    <script src="inc/switcher/js/switcher.js"></script>
+    <link href="inc/switcher/css/switcher.css" rel="stylesheet">
+</head>
+
+<body class="home-one" style="overflow: visible;">
 
     <!-- Preloader -->
-    <div id="preloader">
-      <div id="status"></div>
+    <div id="preloader" style="display: none;">
+        <div id="status" style="display: none;"></div>
     </div>
-    
+
     <!-- Header start -->
     <header class="header">
-      <div class="container d-flex align-items-center">
-          <a class="logo" href="index.html">
-            <img src="images/logo.png" alt="">
-          </a>
-          <nav class="primary-menu text-md-right">                        
-            <ul>
-              <li class="current-menu-item has-menu-child"><a href="#">Home</a>
-                <ul class="sub-menu">
-                  <li><a href="home-01.html">Home 01</a></li>
-                  <li><a href="home-02.html">Home 02</a></li>
-                  <li><a href="home-03.html">Home 03</a></li>
+        <div class="container d-flex align-items-center">
+            <a class="logo" href="home-01.html">
+                <img src="images/logo3.png" alt="">
+            </a>
+            <div class="tasas"><span>GBP/VES</span><span>83.000,00 Bs.</span></div>
+            <nav class="primary-menu ">
+                <a id="mobile-menu-toggler" href="#"><i class="fas fa-bars"></i></a>
+                <ul>
+                    <li><a href="#">¿Cómo funciona?</a></li>
+                    <li><a href="landing-page-receive.html">FAQ</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
                 </ul>
-              </li>
-              <li><a href="landing-page-send.html">Send Money</a></li>
-              <li><a href="landing-page-receive.html">Receive Money</a></li>
-              <li class="has-menu-child"><a href="#">Pages</a>
-                <ul class="sub-menu">
-                  <li><a href="how-it-works-send.html">How it works - Send</a></li>
-                  <li><a href="how-it-works-receive.html">How it works - Receive</a></li>
-                  <li><a href="how-it-works-paybills.html">How it works - Paybills</a></li>
-                  <li><a href="landing-page-ecommerce.html">Landing - Ecommerce</a></li>
-                  <li><a href="faq.html">Faq</a></li>
-                  <li><a href="404.html">404 Error page</a></li>
-                  <li><a href="coming-soon.html">Coming soon</a></li>
-                  <li><a href="signup.html">Sign up</a></li>
-                </ul>
-              </li>
-              <li class="has-menu-child">
-                <a href="#">About</a>
-                <ul class="sub-menu">
-                  <li><a href="about-01.html">About 01</a></li>
-                  <li><a href="about-02.html">About 02</a></li>
-                </ul>
-              </li>
-              <li class="has-menu-child">
-                <a href="blog.html">Blog</a>
-                <ul class="sub-menu">
-                  <li><a href="blog.html">Blog</a></li>
-                  <li><a href="blog-details.html">Blog Details</a></li>
-                </ul>
-              </li>
-              <li><a href="contact.html">Contact</a></li>
-              <li class="login btn-outline btn-round"><a href=""><i class="fas fa-shopping-cart"></i> Buy Roysha</a></li>
-            </ul>
-          </nav>
-      </div>
+            </nav>
+            <button type="button" id="login" class="btn btn-default">
+                <span class="bh"></span>
+                <span>Login</span>
+            </button>
+            <button type="button" id="closeFormLogin" class="btn btn-register">
+                <span class="bh"></span>
+                <span>Registro</span>
+            </button>
+            <button class="lang"><img src="images/flags/ven.png" alt=""><i class="fas fa-caret-down"></i></button>
+        </div>
     </header>
-    <!-- Header end --> 
+    <!-- Header end -->
 
-    <!-- Features section start -->
-    <section class="features">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-8 col-md-9 m-auto">
-            <div class="sec-heading text-center">
-              <h2 class="sec-title">We Bring Everything In One Place</h2>
-              <p class="sec-subtitle">Roysha comes with an interactive HTML template that ensures the solution for money transfers and online payment systems. It is built based on modern web design techniques. You will get all the possible features that should be in this category.</p>
+    <!-- Login & Register Form start-->
+    <div id="formLoginClick" class="containerFormLogin animated">
+        <div class="">
+            <div class="form-field">
+                <label>Email</label>
+                <div class="join-field">
+                    <input type="text" name="username" placeholder="example@gmail.com">
+                </div>
             </div>
-          </div>
+            <div class="form-field">
+                <label>Password</label>
+                <div class="join-field">
+                    <input type="text" name="password" placeholder="Password">
+                </div>
+            </div>
+            <button class="btn btn-block btn-filled form-btn">
+                <span class="bh"></span>
+                <span>Login</span>
+            </button>
         </div>
-        <div class="features-scrns">
-          <figure class="scrn-1"><img src="demo-assets/images/home1.jpg" alt=""></figure>
-          <figure class="scrn-2"><img src="demo-assets/images/home2.jpg" alt=""></figure>
-          <figure class="scrn-3"><img src="demo-assets/images/home3.jpg" alt=""></figure>
-        </div>
-      </div>
-    </section>
-    <!-- Features section end -->
+    </div>
+    <!-- Login & Register Form end-->
 
-    <section class="bill-categories">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 m-auto">
-            <div class="sec-heading">
-              <h2 class="sec-title">Unique Features</h2>
-              <p class="sec-subtitle">We have created developer friendly, minimal, clean, highly customizable template
-                  which helps you to kick start your Business. </p>
-            </div>
-          </div>          
-        </div>
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <a href="#" class="icon-list-block">
-              <img src="demo-assets/icons/bootstrapping.png" alt="">
-              <span>Bootstrap Grid</span>
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#" class="icon-list-block">
-              <img src="demo-assets/icons/sass.png" alt="">
-              <span>SCSS</span>
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#" class="icon-list-block">
-              <img src="demo-assets/icons/owl.png" alt="">
-              <span>Owl Carousel</span>
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#" class="icon-list-block">
-              <img src="demo-assets/icons/fancybox.png" alt="">
-              <span>Fancybox</span>
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#" class="icon-list-block">
-              <img src="demo-assets/icons/countdown.png" alt="">
-              <span>countdown</span>
-            </a>
-          </div>          
-          <div class="col-md-3 col-sm-6">
-            <a href="#" class="icon-list-block">
-              <img src="demo-assets/icons/select.png" alt="">
-              <span>Nice Select</span>
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#" class="icon-list-block">
-              <img src="demo-assets/icons/animate.png" alt="">
-              <span>Css animation</span>
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#" class="icon-list-block">
-              <img src="demo-assets/icons/accordion.png" alt="">
-              <span>Accordion</span>
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#" class="icon-list-block">
-              <img src="demo-assets/icons/settings.png" alt="">
-              <span>Easy Customise</span>
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#" class="icon-list-block">
-              <img src="demo-assets/icons/check.png" alt="">
-              <span>W3C validated</span>
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#" class="icon-list-block">
-              <img src="demo-assets/icons/technical-support.png" alt="">
-              <span>24/7 Support</span>
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#" class="icon-list-block">
-              <img src="demo-assets/icons/document.png" alt="">
-              <span>Well Documentation</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Demo screens start -->
-    <section class="demo-screens  bg-offwhite pb-0">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-9 m-auto">
-            <div class="sec-heading text-center">
-              <h2 class="sec-title">Creative Demos</h2>
-              <p class="sec-subtitle">When you are looking for complete design with great development, Roysha has all that things to give you an stunniung website.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <a href="home-01.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/1.jpg" alt="">
-              </div>
-              <span>Home 01 Preview</span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="home-02.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/2.jpg" alt="">
-              </div>
-              <span>Home 02 Preview</span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="home-03.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/3.jpg" alt="">
-              </div>
-              <span>Home 03 Preview</span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="how-it-works-receive.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/7.jpg" alt="">
-              </div>
-              <span>How It Works - Receive</span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="how-it-works-paybills.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/8.jpg" alt="">
-              </div>
-              <span>How It Works - Pay Bills</span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="how-it-works-send.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/9.jpg" alt="">
-              </div>
-              <span>How It Works - Send</span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="landing-page-send.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/10.jpg" alt="">
-              </div>
-              <span>Landing Page - Send</span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="landing-page-receive.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/11.jpg" alt="">
-              </div>
-              <span>Landing Page - Receive</span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="landing-page-ecommerce.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/12.jpg" alt="">
-              </div>
-              <span>Landing Page - Ecommerce</span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="about-01.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/13.jpg" alt="">
-              </div>
-              <span>About Us - 1</span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="about-02.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/14.jpg" alt="">
-              </div>
-              <span>About Us - 2</span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="faq.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/15.jpg" alt="">
-              </div>
-              <span>FAQ</span>
-            </a>
-          </div>          
-          <div class="col-md-4">
-            <a href="contact.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/16.jpg" alt="">
-              </div>
-              <span>Contact</span>
-            </a>
-          </div>          
-          <div class="col-md-4">
-            <a href="blog.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/17.jpg" alt="">
-              </div>
-              <span>Blog</span>
-            </a>
-          </div>          
-          <div class="col-md-4">
-            <a href="blog-details.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/18.jpg" alt="">
-              </div>
-              <span>Blog Details</span>
-            </a>
-          </div>          
-          <div class="col-md-4">
-            <a href="404.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/19.jpg" alt="">
-              </div>
-              <span>404 error page</span>
-            </a>
-          </div>          
-          <div class="col-md-4">
-            <a href="login.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/21.jpg" alt="">
-              </div>
-              <span>log in</span>
-            </a>
-          </div>          
-          <div class="col-md-4">
-            <a href="signup.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/22.jpg" alt="">
-              </div>
-              <span>sign up</span>
-            </a>
-          </div>          
-          <div class="col-md-4">
-            <a href="coming-soon.html" class="single-demo">
-              <div class="single-demo--img">
-                <img src="demo-assets/images/20.jpg" alt="">
-              </div>
-              <span>coming soon</span>
-            </a>
-          </div>          
-        </div>
-      </div>
-    </section>
-    <!-- end -->
+    <!-- Banner section start -->
+    <section class="banner v2">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-7 col-md-12">
+                    <div class="ban-content">
+                        <h1>Envía dinero a Venezuela<br> Desde<br> El Reino Unido</h1>
 
-    <section class="about-overview">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 m-auto">
-            <div class="sec-heading">
-              <h2 class="sec-title">Why you’ll choose Roysha</h2>
-              <p class="sec-subtitle">When you are looking for complete design with the Modern & Unique look, Roysha has all the features to give you an amazing website.</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12">
+                    <div class="form-tab">
+                        <ul class="nav nav-tabs">
+                            <li><a class="active" data-toggle="tab" href="#send-money">Simulación de envío</a></li>
+                        </ul>
+                        <div class="tab-content currency-form">
+                            <div id="send-money" class="tab-pane fade in active show">
+                                <form class="" action="#">
+                                    <div class="form-field">
+                                        <label>Libras Esterlinas</label>
+                                        <div class="join-field">
+                                            <input type="text" name="send_amount" placeholder="£100.00">
+                                            <div class="curr-select">
+                                                <span class="selected"><img src="images/flags/uk.png" alt="">GBP<i
+                                                        class="fas fa-caret-down"></i></span>
+                                                <ul>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="currency-text">
+                                        <span><strong>80,450.00</strong> Tasa de Cambio</span>
+                                        <span><strong>£0.00</strong> Comisión</span>
+                                    </div>
+                                    <div class="form-field">
+                                        <label>Bolívares</label>
+                                        <div class="join-field">
+                                            <input type="text" name="send_amount" placeholder="Bs. 8,045,000.00">
+                                            <div class="curr-select">
+                                                <span class="selected"><img src="images/flags/ven.png" alt="">VES
+                                                    &nbsp;<i class="fas fa-caret-down"></i></span>
+                                                <ul>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-block btn-filled form-btn">
+                                        <span class="bh"></span> <span>Hacer la transacción<i
+                                                class="fas fa-arrow-right"></i></span>
+                                    </button>
+                                    <span class="accept-terms">Revisa nuestros Terminos y Condiciones <a href="#">Terms
+                                            &amp; Policy</a></span>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="iconBox boxed-shadow text-center">
-              <i class="pe-7s-diamond icon"></i>
-              <h5><a href="#">Stunning Design</a></h5>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="iconBox boxed-shadow text-center">
-              <i class="pe-7s-cash icon"></i>
-              <h5><a href="#">Money Transfer from</a></h5>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="iconBox boxed-shadow text-center">
-              <i class="pe-7s-pen icon"></i>
-              <h5><a href="#">Clean Markup</a></h5>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="iconBox boxed-shadow text-center">
-              <i class="pe-7s-monitor icon"></i>
-              <h5><a href="#">Responsive Design</a></h5>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="iconBox boxed-shadow text-center">
-              <i class="pe-7s-leaf icon"></i>
-              <h5><a href="#">css animattion</a></h5>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="iconBox boxed-shadow text-center">
-              <i class="pe-7s-check icon"></i>
-              <h5><a href="#">W3C Validate</a></h5>
-            </div>
-          </div>
-          
-          <div class="col-md-4">
-            <div class="iconBox boxed-shadow text-center">
-              <i class="pe-7s-tools icon"></i>
-              <h5><a href="#">Customizable</a></h5>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="iconBox boxed-shadow text-center">
-              <i class="pe-7s-note2 icon"></i>
-              <h5><a href="#">Well Documented</a></h5>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="iconBox boxed-shadow text-center">
-              <i class="pe-7s-headphones icon"></i>
-              <h5><a href="#">24/7 Quick Support</a></h5>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
+    <!-- Banner section end -->
+
+    <!-- Overview section start -->
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 m-auto">
+                    <div class="sec-heading">
+                        <h2 class="sec-title">¿Cómo Funciona?</h2>
+                        <p class="sec-subtitle">En 3 simples pasos podrás comemzar a enviar dinero a Venezuela. Una
+                            vez
+                            registrado todo será mas facil.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 m-auto">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="iconBox boxed-shadow text-center">
+                                <!-- <img src="images/icons/3.png" alt="" class="img-icon"> -->
+
+                                <!-- Roysha icon -->
+                                <span class="roysha-icon roysha-encrypted"><span class="path1"></span><span
+                                        class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                        class="path5"></span><span class="path6"></span><span class="path7"></span><span
+                                        class="path8"></span><span class="path9"></span><span
+                                        class="path10"></span><span class="path11"></span><span
+                                        class="path12"></span><span class="path13"></span></span>
+
+                                <h5><a href="#">Registro</a></h5>
+                                <p>Registrate y confirma tu correo, con un ID válido. Pasaporte, Licencia, Etc.</p>
+                                <a href="#" class="btn"><span class="bh"></span> <span>Registrate</span></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="iconBox boxed-shadow text-center">
+                                <!-- <img src="images/icons/3.png" alt="" class="img-icon"> -->
+
+                                <!-- Roysha icon -->
+                                <span class="roysha-icon roysha-hand"><span class="path1"></span><span
+                                        class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                        class="path5"></span><span class="path6"></span><span class="path7"></span><span
+                                        class="path8"></span><span class="path9"></span><span
+                                        class="path10"></span><span class="path11"></span><span
+                                        class="path12"></span><span class="path13"></span><span
+                                        class="path14"></span><span class="path15"></span><span
+                                        class="path16"></span><span class="path17"></span></span>
+
+                                <h5><a href="#">Programa</a></h5>
+                                <p>Programas tus transferencias, págalas con tarjeta o desde tu banco y guarda
+                                    beneficiarios. </p>
+                                <a href="#" class="btn"><span class="bh"></span> <span>Ingresa</span></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="iconBox boxed-shadow text-center">
+                                <!-- <img src="images/icons/3.png" alt="" class="img-icon"> -->
+
+                                <!-- Roysha icon -->
+                                <span class="roysha-icon roysha-hand-cash"><span class="path1"></span><span
+                                        class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                        class="path5"></span><span class="path6"></span><span class="path7"></span><span
+                                        class="path8"></span><span class="path9"></span><span
+                                        class="path10"></span></span>
+
+                                <h5><a href="#">Recibe en Venezuela</a></h5>
+                                <p>Tu o tu beneficiario recibe bolívares en cualquier banco en Venezuela.</p>
+                                <a href="#" class="btn"><span class="bh"></span> <span>Recibe</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="overview">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="content-box">
+                        <span class="tagline bar">Nuestras Ventajas</span>
+                        <h2>Transfiere dinero desde el Reino Unido a Venezuela</h2>
+                        <p>Somos una nueva solución producto de años de experiencia en el mercado Británico para
+                            Venezolanos. Trabajamos con pasión para ofrecer servicios de alta calidad y experiencia.
+                        </p>
+                        <p>Nuestra meta es convertirnos en la primera opción para toda la comunidad en el envío de
+                            dinero alrededor del mundo.</p>
+                        <a href="#" class="btn btn-default"> <span class="bh"
+                                style="top: 190.5px; left: 354.333px;"></span> <span>Haz tu primera
+                                transferencia!</span></a>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="iconBox boxed-shadow text-center">
+                                <!-- <img src="images/icons/1.png" alt="" class="img-icon"> -->
+
+                                <!-- Roysha icon -->
+                                <span class="roysha-icon roysha-encrypted"><span class="path1"></span><span
+                                        class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                        class="path5"></span><span class="path6"></span><span class="path7"></span><span
+                                        class="path8"></span><span class="path9"></span><span
+                                        class="path10"></span><span class="path11"></span><span
+                                        class="path12"></span><span class="path13"></span></span>
+
+                                <h5><a href="#">Servicio 24 horas</a></h5>
+                                <p>Sabemos que no tienes tiempo para esto, por eso lo hacemos facil.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="iconBox boxed-shadow text-center">
+                                <!-- <img src="images/icons/2.png" alt="" class="img-icon"> -->
+
+                                <!-- Roysha icon -->
+                                <span class="roysha-icon roysha-cash-pin"><span class="path1"></span><span
+                                        class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                        class="path5"></span><span class="path6"></span><span class="path7"></span><span
+                                        class="path8"></span><span class="path9"></span><span
+                                        class="path10"></span><span class="path11"></span></span>
+
+                                <h5><a href="#">FCA REGISTERED</a></h5>
+                                <p>Cumplimos con todas las normas que el mercado Británico requiere.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="iconBox boxed-shadow text-center">
+                                <!-- <img src="images/icons/3.png" alt="" class="img-icon"> -->
+
+                                <!-- Roysha icon -->
+                                <span class="roysha-icon roysha-hand-bag-cash"><span class="path1"></span><span
+                                        class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                        class="path5"></span><span class="path6"></span><span
+                                        class="path7"></span></span>
+
+                                <h5><a href="#">Rápida entrega de fondos</a></h5>
+                                <p>Nuestra misión convertirnos en lo más rápido del mercado</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="iconBox boxed-shadow text-center">
+                                <!-- <img src="images/icons/1.png" alt="" class="img-icon"> -->
+
+                                <!-- Roysha icon -->
+                                <span class="roysha-icon roysha-tracking"><span class="path1"></span><span
+                                        class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                        class="path5"></span><span class="path6"></span><span class="path7"></span><span
+                                        class="path8"></span><span class="path9"></span><span
+                                        class="path10"></span><span class="path11"></span><span
+                                        class="path12"></span><span class="path13"></span><span
+                                        class="path14"></span><span class="path15"></span><span
+                                        class="path16"></span><span class="path17"></span></span>
+
+                                <h5><a href="#">Seguro y Confiable</a></h5>
+                                <p>Trabajamos con los grandes para asegurarte pagos son tarjeta de la manera mas
+                                    segura.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Overview section end -->
+
+    <!-- Payment service section start -->
+    <section class="video">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 m-auto text-center">
+                    <div class="sec-heading">
+                        <h2 class="sec-title">Viaja a Venezuela y cambia sólo lo que necesitas</h2>
+                        <p class="sec-subtitle">Es nuestro placer ayudarte a estar con los tuyos</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Payment service section end -->
+
+
+    <!-- Partners section start -->
+    <section class="partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 m-auto">
+                    <div class="sec-heading">
+                        <span class="tagline">Amigos y Socios</span>
+                        <h2 class="sec-title"></h2>
+                        <p class="sec-subtitle">Nuestros amigos, socios y proveedores pueden dar excelentes
+                            referencias
+                            de nuestra seriedad y comrpomiso con la comunidad en el Reino Unido</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="partners-logo owl-carousel owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage"
+                                style="transform: translate3d(-2145px, 0px, 0px); transition: all 0.5s ease 0s; width: 3510px;">
+                                <div class="owl-item cloned" style="width: 135px; margin-right: 60px;"><a href="#"><img
+                                            src="images/partners/1.png" alt=""></a></div>
+                                <div class="owl-item cloned" style="width: 135px; margin-right: 60px;"><a href="#"><img
+                                            src="images/partners/2.png" alt=""></a></div>
+                                <div class="owl-item cloned" style="width: 135px; margin-right: 60px;"><a href="#"><img
+                                            src="images/partners/3.png" alt=""></a></div>
+                                <div class="owl-item cloned" style="width: 135px; margin-right: 60px;"><a href="#"><img
+                                            src="images/partners/4.png" alt=""></a></div>
+                                <div class="owl-item cloned" style="width: 135px; margin-right: 60px;"><a href="#"><img
+                                            src="images/partners/5.png" alt=""></a></div>
+                                <div class="owl-item cloned" style="width: 135px; margin-right: 60px;"><a href="#"><img
+                                            src="images/partners/6.png" alt=""></a></div>
+                                <div class="owl-item" style="width: 135px; margin-right: 60px;"><a href="#"><img
+                                            src="images/partners/1.png" alt=""></a></div>
+                                <div class="owl-item" style="width: 135px; margin-right: 60px;"><a href="#"><img
+                                            src="images/partners/2.png" alt=""></a></div>
+                                <div class="owl-item" style="width: 135px; margin-right: 60px;"><a href="#"><img
+                                            src="images/partners/3.png" alt=""></a></div>
+                                <div class="owl-item" style="width: 135px; margin-right: 60px;"><a href="#"><img
+                                            src="images/partners/4.png" alt=""></a></div>
+                                <div class="owl-item" style="width: 135px; margin-right: 60px;"><a href="#"><img
+                                            src="images/partners/5.png" alt=""></a></div>
+                                <div class="owl-item active" style="width: 135px; margin-right: 60px;"><a href="#"><img
+                                            src="images/partners/6.png" alt=""></a></div>
+                                <div class="owl-item cloned active" style="width: 135px; margin-right: 60px;"><a
+                                        href="#"><img src="images/partners/1.png" alt=""></a></div>
+                                <div class="owl-item cloned active" style="width: 135px; margin-right: 60px;"><a
+                                        href="#"><img src="images/partners/2.png" alt=""></a></div>
+                                <div class="owl-item cloned active" style="width: 135px; margin-right: 60px;"><a
+                                        href="#"><img src="images/partners/3.png" alt=""></a></div>
+                                <div class="owl-item cloned active" style="width: 135px; margin-right: 60px;"><a
+                                        href="#"><img src="images/partners/4.png" alt=""></a></div>
+                                <div class="owl-item cloned active" style="width: 135px; margin-right: 60px;"><a
+                                        href="#"><img src="images/partners/5.png" alt=""></a></div>
+                                <div class="owl-item cloned" style="width: 135px; margin-right: 60px;"><a href="#"><img
+                                            src="images/partners/6.png" alt=""></a></div>
+                            </div>
+                        </div>
+                        <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span
+                                    aria-label="Previous">‹</span></button><button type="button" role="presentation"
+                                class="owl-next"><span aria-label="Next">›</span></button></div>
+                        <div class="owl-dots disabled"></div>
+                        <div class="owl-thumbs"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Partners section end -->
+
+    <!-- Faq section start -->
+    <section class="faq-tab bg-offwhite">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 m-auto text-center">
+                    <div class="sec-heading">
+                        <h2 class="sec-title">Preguntas Frecuentes</h2>
+                        <p class="sec-subtitle">En nuestra experiencia estas son las preguntas mas frecuentes que
+                            puede
+                            surgir de nuestros servicios.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-10 col-md-12 m-auto">
+                    <ul class="row nav nav-tabs">
+                        <li class="col-md-3">
+                            <a class="" data-toggle="tab" href="#general-qs">
+                                <!-- <img src="images/icons/9.png" alt=""> -->
+
+                                <!-- Roysha icon -->
+                                <span class="roysha-icon roysha-ask"><span class="path1"></span><span
+                                        class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                        class="path5"></span></span>
+
+                                GENERAL
+                            </a>
+                        </li>
+                        <li class="col-md-3">
+                            <a data-toggle="tab" href="#trasn-money" class="">
+                                <!-- <img src="images/icons/10.png" alt=""> -->
+
+                                <!-- Roysha icon -->
+                                <span class="roysha-icon roysha-hand-cash"><span class="path1"></span><span
+                                        class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                        class="path5"></span><span class="path6"></span><span class="path7"></span><span
+                                        class="path8"></span><span class="path9"></span><span
+                                        class="path10"></span></span>
+
+                                TASAS
+                            </a>
+                        </li>
+                        <li class="col-md-3">
+                            <a data-toggle="tab" href="#mbl-banking" class="active">
+                                <!-- <img src="images/icons/11.png" alt=""> -->
+
+                                <!-- Roysha icon -->
+                                <span class="roysha-icon roysha-fast-transfer"><span class="path1"></span><span
+                                        class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                        class="path5"></span><span class="path6"></span><span class="path7"></span><span
+                                        class="path8"></span><span class="path9"></span><span
+                                        class="path10"></span><span class="path11"></span><span
+                                        class="path12"></span><span class="path13"></span><span
+                                        class="path14"></span><span class="path15"></span><span
+                                        class="path16"></span><span class="path17"></span><span
+                                        class="path18"></span></span>
+
+                                FORMAS DE PAGO
+                            </a>
+                        </li>
+                        <li class="col-md-3">
+                            <a data-toggle="tab" href="#fee-charges">
+                                <!-- <img src="images/icons/12.png" alt=""> -->
+
+                                <!-- Roysha icon -->
+                                <span class="roysha-icon roysha-bank-diposite"><span class="path1"></span><span
+                                        class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                        class="path5"></span><span class="path6"></span><span class="path7"></span><span
+                                        class="path8"></span><span class="path9"></span><span
+                                        class="path10"></span><span class="path11"></span><span
+                                        class="path12"></span><span class="path13"></span><span
+                                        class="path14"></span><span class="path15"></span><span
+                                        class="path16"></span></span>
+
+                                COMISIONES
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="general-qs" class="tab-pane fade in">
+                            <div class="accordion" id="accordion">
+                                <div class="accordion-item">
+                                    <h5 class="collapsed" data-toggle="collapse" data-target="#faq-1"
+                                        aria-expanded="true">
+                                        ¿En cuánto tiempo el beneficiario recibe el dinero?
+                                    </h5>
+                                    <div id="faq-1" class="collapse" data-parent="#accordion">
+                                        <div class="acr-body">
+                                            <p>90% de nuestras transferencias estarán efectivas antes de las 24
+                                                Horas
+                                                hábiles bancarias sin embargo, nuestros terminos y condiciones
+                                                especifican que si sucede algún imprevisto pueden tomar hasta 72
+                                                horas
+                                                hábiles bancarias en Venezuela. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h5 class="collapsed" data-toggle="collapse" data-target="#faq-2"
+                                        aria-expanded="false">
+                                        ¿Qué son horas hábiles bancarias?
+                                    </h5>
+
+                                    <div id="faq-2" class="collapse show" data-parent="#accordion">
+                                        <div class="acr-body">
+                                            <p>Son todas aquellas horas que trabajan los bancos en Venezuela. No
+                                                debes
+                                                tomar como hábil bancario Sábados, Domingos, feriados o bancarios.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h5 class="collapsed" data-toggle="collapse" data-target="#faq-3"
+                                        aria-expanded="false">
+                                        ¿Cuál es el mínimo monto que puedo enviar?
+                                    </h5>
+
+                                    <div id="faq-3" class="collapse" data-parent="#accordion">
+                                        <div class="acr-body">
+                                            <p>Podrás enviar el equivalente a £20 Libras Esterlinas como envío de
+                                                dinero
+                                                mínimo.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h5 class="collapsed" data-toggle="collapse" data-target="#faq-4"
+                                        aria-expanded="false">
+                                        ¿Cuál es el máximo monto que puedo enviar?
+                                    </h5>
+
+                                    <div id="faq-4" class="collapse" data-parent="#accordion">
+                                        <div class="acr-body">
+                                            <p>Podrás enviar un montó máximo equivalente a £3.000 Libras Esterlinas
+                                                cada
+                                                30 dias consecutivos. También tenemos planes para negocios,
+                                                comunicate
+                                                con nostros para mas información. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h5 class="collapsed" data-toggle="collapse" data-target="#faq-5"
+                                        aria-expanded="false">
+                                        ¿Aceptan efectivo?
+                                    </h5>
+
+                                    <div id="faq-5" class="collapse" data-parent="#accordion">
+                                        <div class="acr-body">
+                                            <p>No, solamente aceptamos pagos con tarjeta de débito o credito asi
+                                                como
+                                                transferencias bancarias. En ambos casos el titular de la cuenta
+                                                Remittven debe ser el titular de la TDD o cuenta bancaria. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="trasn-money" class="tab-pane fade">
+                            <div class="accordion" id="accordion1">
+                                <div class="accordion-item">
+                                    <h5 class="collapsed" data-toggle="collapse" data-target="#tm-1"
+                                        aria-expanded="true">
+                                        ¿Cuál es la tasa de cambio?
+                                    </h5>
+                                    <div id="tm-1" class="collapse" data-parent="#accordion">
+                                        <div class="acr-body">
+                                            <p>Nuestra tasa de cambio esta actualizada 24 hoars al día y la puedes
+                                                revisar cuando gustes sin necesidad de inscribirte al comienzo de
+                                                nuestra página web.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h5 class="collapsed" data-toggle="collapse" data-target="#tm-2"
+                                        aria-expanded="false">
+                                        ¿Trabajan con otros paises?
+                                    </h5>
+
+                                    <div id="tm-2" class="collapse show" data-parent="#accordion">
+                                        <div class="acr-body">
+                                            <p>Muy pronto trabajaremos con otros paises, de momento solamente con el
+                                                Reino Unido y Venezuela.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h5 class="collapsed" data-toggle="collapse" data-target="#tm-3"
+                                        aria-expanded="false">
+                                        ¿Tienen tasas express u otro tipo de cambio?
+                                    </h5>
+
+                                    <div id="tm-3" class="collapse" data-parent="#accordion">
+                                        <div class="acr-body">
+                                            <p>No, no tenemos tasas ocultas la tasa que ofrecemos es la que recibes.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="mbl-banking" class="tab-pane fade active show">
+                            <div class="accordion" id="accordion2">
+                                <div class="accordion-item">
+                                    <h5 class="collapsed" data-toggle="collapse" data-target="#mblb-1"
+                                        aria-expanded="true">
+                                        ¿Con que formas de pago cuento?
+                                    </h5>
+                                    <div id="mblb-1" class="collapse" data-parent="#accordion">
+                                        <div class="acr-body">
+                                            <p>Todas tus transferencias pueden ser abonadas con Tarjeta de débito o
+                                                Crédito. Adicionalmente podrás realizar transferencias a nuestras
+                                                cuentas desde una cuenta donde seas titular. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h5 class="collapsed" data-toggle="collapse" data-target="#mblb-2"
+                                        aria-expanded="false">
+                                        ¿Cómo recibe el dinero mi beneficiario?
+                                    </h5>
+
+                                    <div id="mblb-2" class="collapse show" data-parent="#accordion">
+                                        <div class="acr-body">
+                                            <p>El dinero se recibe en una cuenta bancaria en bolivares en Venezuela.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h5 class="collapsed" data-toggle="collapse" data-target="#mblb-3"
+                                        aria-expanded="false">
+                                        ¿Puedo enviar otra moneda a mi beneficiario?
+                                    </h5>
+
+                                    <div id="mblb-3" class="collapse" data-parent="#accordion">
+                                        <div class="acr-body">
+                                            <p>Por el momento solamente Bolívares Soberanos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="fee-charges" class="tab-pane fade">
+                            <div class="accordion" id="accordion3">
+                                <div class="accordion-item">
+                                    <h5 class="collapsed" data-toggle="collapse" data-target="#fc-1"
+                                        aria-expanded="true">
+                                        ¿Cuánto cuesta enviar dinero?
+                                    </h5>
+                                    <div id="fc-1" class="collapse" data-parent="#accordion">
+                                        <div class="acr-body">
+                                            <p>Nuestras comisiones y costos están incluidas en la tasa de cambio que
+                                                te
+                                                ofrecemos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h5 class="collapsed" data-toggle="collapse" data-target="#fc-2"
+                                        aria-expanded="false">
+                                        ¿Cobrán comisión?
+                                    </h5>
+
+                                    <div id="fc-2" class="collapse show" data-parent="#accordion">
+                                        <div class="acr-body">
+                                            <p>No cobramos comisión.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h5 class="collapsed" data-toggle="collapse" data-target="#fc-3"
+                                        aria-expanded="false">
+                                        ¿Débe mi beneficiario pagar comisión?
+                                    </h5>
+
+                                    <div id="fc-3" class="collapse" data-parent="#accordion">
+                                        <div class="acr-body">
+                                            <p>No, su beneficiario recibirá exactamente el monto que usted ha
+                                                enviado.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Faq section end -->
 
     <!-- Testimonial section start -->
-    <section class="testimonial bg-offwhite">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 m-auto">
-            <div class="sec-heading">
-              <span class="tagline">Clients Opinion</span>
-              <h2 class="sec-title">What Users Say About US</h2>
-              <p class="sec-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+    <section class="testimonial-v2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 m-auto">
+                    <div class="sec-heading">
+                        <h2 class="sec-title">Reviews</h2>
+                        <p class="sec-subtitle">Lo más importante para nostros son las opiniones de nuestros
+                            usuarios.
+                            Nos ayudan a mejorar y sentir que nuestros trabajo cuenta!</p>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="row">
+                <div class="col-lg-10 col-md-12 m-auto">
+                    <div class="testimonialBox">
+                        <span class="quote-sign"><i class="fas fa-quote-left"></i></span>
+                        <div class="test-caro-2 owl-carousel owl-loaded owl-drag" data-slider-id="1">
+
+
+
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage"
+                                    style="transform: translate3d(-1720px, 0px, 0px); transition: all 0.5s ease 0s; width: 2580px;">
+                                    <div class="owl-item" style="width: 860px;">
+                                        <div class="single-testimonial">
+                                            <p>"Seguro y confiable. Lo recomiendo sin reparos"</p>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 860px;">
+                                        <div class="single-testimonial">
+                                            <p>"Nunca había utilizado un servicio así. Super fácil. Toda la
+                                                información
+                                                está en la página web, te registras, registras la cuenta venezolana
+                                                y
+                                                luego es super sencillo el procedimiento. En horas tenía el dinero
+                                                en
+                                                Venezuela! Super recomendado!""</p>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item active" style="width: 860px;">
+                                        <div class="single-testimonial">
+                                            <p>"EXCELENTES!! súper rápido y sencillo todo claro paso a paso y si
+                                                usted
+                                                es un poco no muy ducho con la tecnología ellos son súper pacientes
+                                                en
+                                                ayudarle sin ningún problema. Me encanto el servicio. Los recomiendo
+                                                1000000%"</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><i
+                                        class="fas fa-arrow-left"></i></button><button type="button" role="presentation"
+                                    class="owl-next disabled"><i class="fas fa-arrow-right"></i></button></div>
+                            <div class="owl-dots disabled"></div>
+                        </div>
+                        <div class="client-thumb owl-thumbs" data-slider-id="1">
+                            <a href="javascript:void(0)" class="owl-thumb-item"><img src="images/avatar.png" alt=""></a>
+                            <a href="javascript:void(0)" class="owl-thumb-item"><img src="images/avatar.png" alt=""></a>
+                            <a href="javascript:void(0)" class="owl-thumb-item active"><img src="images/avatar.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="test-caro owl-carousel">
-            <div class="single-testimonial">
-              <div class="tst-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elitsed do eiusmod pempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspen risse ultrices gravida. 
-              </div>
-              <div class="tst-head">
-                <img src="images/avatar.png" class="avatar" alt="">
-                <h6>Jhon Doe</h6>
-                <span>Business analist</span>
-              </div>
-            </div>
-            <div class="single-testimonial">
-              <div class="tst-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elitsed do eiusmod pempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspen risse ultrices gravida. 
-              </div>
-              <div class="tst-head">
-                <img src="images/avatar.png" class="avatar" alt="">
-                <h6>Jhon Doe</h6>
-                <span>Business analist</span>
-              </div>
-            </div>
-            <div class="single-testimonial">
-              <div class="tst-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elitsed do eiusmod pempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspen risse ultrices gravida. 
-              </div>
-              <div class="tst-head">
-                <img src="images/avatar.png" class="avatar" alt="">
-                <h6>Jhon Doe</h6>
-                <span>Business analist</span>
-              </div>
-            </div>
-        </div>
-      </div>
     </section>
     <!-- Testimonial section end -->
+    <!-- Footer start -->
 
-    <!-- Footer strat -->
     <footer class="footer">
-      <div class="foo-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-8 text-center m-auto">
-            <h2>Create your first product with Roysha and Start your website today!</h2>
-            <a href="https://themeforest.net/item/roysha-money-transfer-and-online-payments-html-template/24259706?s_rank=1" class="btn btn-default">Purchase Now</a>
-          </div>
-        </div>
-      </div>
-      </div>
-      <div class="foo-btm">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="copyright">Copyright &copy; <a href="http://themeies.com">themeies</a> - 2019</div>
+        <div class="foo-btm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="foo-navigation">
+                            <ul>
+                                <li><a href="#">Terminos y Condiciones</a></li>
+                                <li><a href="#">Privacy &amp; Policy</a></li>
+                                <li><a href="#">Legal</a></li>
+                                <li><a href="#">Notice</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="copyright">Copyright © <a href="http://themeies.com">Remittven Limited</a> -
+                            2020
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </footer>
     <!-- Footer end -->
 
@@ -559,8 +811,38 @@
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/106949/jquery.onscreen.js"></script>
     <script src="js/scripts.js"></script>
-  </body>
+
+    <script>
+        function testAnim(x, close) {
+            $('#formLoginClick').removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+                //$(this).removeClass()
+                if (close) {
+                    $(this).addClass("containerFormLogin");
+                }
+            });
+        };
+
+        $(document).ready(function () {
+            let flagLoginForm = false;
+            let tagActive = '';
+            $('#login, #signup').click(function (e) {
+                e.preventDefault();
+                //testAnim("fadeInRight");
+                $('#formLoginClick').fadeIn();
+                flagLoginForm = true;
+                tagActive = this.id;
+            });
+            $('#closeFormLogin').click(function (e) {
+                e.preventDefault();
+                $('#formLoginClick').fadeOut();
+                //testAnim("fadeOutRight", true);
+                flagLoginForm = false;
+            });
+        });
+    </script>
+</body>
+
 </html>
